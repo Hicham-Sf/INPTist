@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INPTist - Learn Together</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="header">
+        <h1>INPTist Academy</h1>
+        <p>Quality education for every Moroccan student</p>
+    </div>
+
+    <div class="cta-buttons">
+        <a href="/login" class="btn primary">Log In</a>
+        <a href="/signup" class="btn secondary">Sign Up Free</a>
+    </div>
+
+    <div class="courses-preview">
+        <h2>Popular Courses</h2>
+        <div class="course-card">Python Programming</div>
+        <div class="course-card">Data Structures</div>
+        <div class="course-card">Web Development</div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
