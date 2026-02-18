@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - INPTist</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="header">
+        <h1>My Dashboard</h1>
+        <p>Welcome to your learning space</p>
+    </div>
+
+    <div class="courses-preview">
+        <h2>My Courses</h2>
+        <div class="course-card">Python Programming (In Progress)</div>
+        <div class="course-card">Data Structures (Not Started)</div>
+    </div>
+
+    <div style="text-align: center; margin-top: 30px;">
+        <a href="/landing" class="btn secondary">Return to Home</a>
+    </div>
+</body>
+</html>
